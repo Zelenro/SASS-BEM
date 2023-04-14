@@ -73,9 +73,11 @@ a {
   -webkit-transform: translate(0, 50%);
           transform: translate(0, 50%);
   background-color: transparent;
+  border: none;
 }
 
 .btn-menu__humburger {
+  background-color: black;
   stroke: #2e2f42;
   fill: #2e2f42;
 }
