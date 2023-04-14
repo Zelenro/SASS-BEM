@@ -34,12 +34,14 @@ a {
 .navigation {
   width: 320px;
   height: 72px;
-  // width: 100%;
   display: flex;
   align-items: center;
   position: relative;
 }
 
+.logo {
+  padding-left: 15px;
+}
 .navigation__list {
   display: flex;
 }
@@ -53,21 +55,21 @@ a {
   color: #2e2f42;
 }
 
-.navigation__item:not(:last-child) {
-  // margin-right: 40px;
-}
-
 .btn-menu {
   position: absolute;
   top: 0;
-  right: 0;
-  transform: translate(0, 100%);
-  width: 24px;
-  height: 24px;
+  right: 15px;
+
+  transform: translate(0, 50%);
+  // fill: #2e2f42;
+  background-color: transparent;
+  border: none;
 }
 
 .btn-menu__humburger {
-  background-color: transparent;
+  background-color: black;
+  stroke: #2e2f42;
+  fill: #2e2f42;
 }
 
 @media screen and (min-width: 320px) {

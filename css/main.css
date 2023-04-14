@@ -46,6 +46,10 @@ a {
   position: relative;
 }
 
+.logo {
+  padding-left: 15px;
+}
+
 .navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,15 +68,17 @@ a {
 .btn-menu {
   position: absolute;
   top: 0;
-  right: 0;
-  -webkit-transform: translate(0, 100%);
-          transform: translate(0, 100%);
-  width: 24px;
-  height: 24px;
+  right: 15px;
+  -webkit-transform: translate(0, 50%);
+          transform: translate(0, 50%);
+  background-color: transparent;
+  border: none;
 }
 
 .btn-menu__humburger {
-  background-color: transparent;
+  background-color: black;
+  stroke: #2e2f42;
+  fill: #2e2f42;
 }
 
 @media screen and (min-width: 320px) {
